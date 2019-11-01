@@ -1,17 +1,19 @@
 package assignment;
 
-public class Butterfly {
+public class Butterfly extends Bird {
+
+	Butterfly() {
+
+	}
 
 	Butterfly(boolean isCaterpillar) {
 
 		if (isCaterpillar) {
-			Animal a = new Animal();
-			a.walk();
+			walk();
 
 		} else {
-			Bird b = new Bird();
-			b.fly();
-			b.say("I do not make a sound.");
+			fly();
+			say("I do not make a sound.");
 		}
 
 	}

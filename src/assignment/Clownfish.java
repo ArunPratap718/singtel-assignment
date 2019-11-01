@@ -1,6 +1,6 @@
 package assignment;
 
-public class ClownFish extends Fish {
+public class Clownfish extends Fish {
 
 	@Override
 	void size() {

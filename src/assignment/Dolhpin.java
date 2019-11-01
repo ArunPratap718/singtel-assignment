@@ -1,8 +1,8 @@
 package assignment;
 
-public class Dolphin {
+public class Dolhpin extends Bird {
 
-	Dolphin() {
+	Dolhpin() {
 		System.out.println("I am a good swimmer.");
 	}
 
