@@ -11,7 +11,7 @@ public class Bird extends Animal {
 	}
 
 	void swim() {
-		System.out.println("I am swimming");
+		System.out.println("I am swimming.");
 	}
 
 }
