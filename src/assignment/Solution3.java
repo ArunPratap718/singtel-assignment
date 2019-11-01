@@ -11,5 +11,10 @@ public class Solution3 {
 		withDog.say("Woof, woof");
 		withCat.say("Meow");
 		withRooster.say("Cock-a-doodle-doo");
+
+		/*
+		 * Yes the parrot is maintainable as it will inherit the say(sound) function of
+		 * the Animal according to its surrounding.
+		 */
 	}
 }
