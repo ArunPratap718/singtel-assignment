@@ -1,10 +1,6 @@
 package assignment;
 
-public class Fish {
-
-	void swim() {
-		System.out.println("I can swim.");
-	}
+public class Fish extends Bird {
 
 	void size() {
 		System.out.println("This is my size.");
